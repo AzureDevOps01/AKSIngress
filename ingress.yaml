@@ -8,7 +8,7 @@ metadata:
     nginx.ingress.kubernetes.io/use-regex: "true"
 spec:
   rules:
-  - host: akstomaustin.westeurope.cloudapp.azure.com
+  - host: aksdpm.eastus.cloudapp.azure.com
     http:
       paths:
       - path: /
