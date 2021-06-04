@@ -8,11 +8,11 @@ metadata:
     nginx.ingress.kubernetes.io/use-regex: "true"
 spec:
   rules:
-  - host: aksdpm.eastus.cloudapp.azure.com
+  - host: demodpm.eastus.cloudapp.azure.com
     http:
       paths:
       - path: /
         backend:
-          serviceName: nginx-ingress-controller
+          serviceName: helloworld
           servicePort: 80
 
