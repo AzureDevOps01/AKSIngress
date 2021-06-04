@@ -13,6 +13,6 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: demodpm
+          serviceName: nginx-ingress-default-backend
           servicePort: 80
 
